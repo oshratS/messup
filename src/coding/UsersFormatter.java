@@ -23,9 +23,9 @@ import org.json.simple.parser.ParseException;
  * 
  */
 public class UsersFormatter {
-    JSONParser parser;
-    JSONObject reformatedUsers;
-    JSONArray usersFromFile;
+    private final JSONParser parser;
+    private final JSONObject reformatedUsers;
+    private JSONArray usersFromFile;
 
     public UsersFormatter() {
         this.parser = new JSONParser();
